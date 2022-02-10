@@ -1,6 +1,8 @@
 <html>
     <head>
-        <title>Module 1</title>
+        <title>
+            SINTP
+        </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
     </head>
