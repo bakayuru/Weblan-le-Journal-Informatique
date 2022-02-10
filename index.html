@@ -6,6 +6,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
     </head>
+    <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #84746C;
+}
+</style>
     <body>
         <div style="text-align: center">
             <[My image](bakayuru.github.io/repository/img/image.jpg)>
@@ -17,6 +46,14 @@
             </P>
             <a href="page2.html">Lien vers la page 2 >
             <a/>
+                
+<ul>
+  <li><a class="active" href="#home">Accueil</a></li>
+  <li><a href="#news">Qui sommes-nous ?</a></li>
+  <li><a href="#contact">Focus</a></li>
+  <li><a href="#about">En résumé</a></li>
+</ul>
+
         </div>
     </body>
 </html>
