@@ -1,23 +1,5 @@
 <html>
-    <head>
-        <title>
-            SINTP
-        </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-    </head>
-    <body>
         <div style="text-align: center">
-            <img src="IMAGES/Logo_du_site.png" alt="logo" style="width: 10%"/>
-            <h1 style="color: #3333ff">
-                les Languages Informatiques pour le Web
-            </h1> 
-            <p style="font-family: verdana; front-size: 150%">
-                Voici un premier paragraphe
-            </P>
-            <a href="page2.html">Lien vers la page 2 >
-            <a/>
+            <img src="https://user-images.githubusercontent.com/98971494/153440384-9e81276e-e2e7-4405-8a62-39a2d64fab22.PNG" alt="logo" style="width: 10%"/>
         </div>
-    </body>
-
 </html>
