@@ -1,128 +1,76 @@
 <!DOCTYPE htlm>
 
 <htlm>
+
 	<head>
 		<meta charset="utf-8">
 		<title>Weblan, le Journal Informatique</title>
 		<link rel="stylesheet" href="style.css.htlm">	
 	</head>
 
-	<style> 
-	ul {
-    	list-style-type: none;
-    	margin: 0;
-    	padding: 0;
-    	overflow: hidden;
-    	background-color: #111;
-	}
 
-	li {
-    	float: left;
-	}
+	<head>
+		<style>
+		ul {
+    			list-style-type: none;
+    			margin: 0;
+    			padding: 0;
+    			overflow: hidden;
+    			background-color: #333;
+			}
 
-	li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	}
+		li {
+    			float: left;
+			}
 
-	li a:hover:not(.active) {
-    	background-color: #111;
-	}
+		li a {
+    			display: block;
+    			color: white;
+    			text-align: center;
+    			padding: 14px 16px;
+    			text-decoration: none;
+			}
 
-	.active {
-    	background-color: #A69A94;
-	}
-    
-	ul {
-    	list-style-type: none;
-    	margin: 0;
-    	padding: 0;
-    	overflow: hidden;
-    	background-color: #333;
-	}
+		li a:hover:not(.active) {
+    			background-color: #111;
+			}
 
-	li {
-    	float: left;
-	}
+		.active {
+    			background-color: #A69A94;
+			}
+		</style>
+	</head>
 
-	li a, .dropbtn {
-    	display: inline-block;
-    	color: white;
-    	text-align: center;
-    	padding: 14px 16px;
-    	text-decoration: none;
-	}
-
-	li a:hover, .dropdown:hover .dropbtn {
-    	background-color: #111;
-	}
-
-	li.dropdown {
-    	display: inline-block;
-	}
-
-	.dropdown-content {
-    	display: none;
-    	position: absolute;
-    	background-color:#DDD8D6;
-    	min-width: 160px;
-    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	}
-
-	.dropdown-content a {
-    	color: white;
-    	padding: 12px 16px;
-    	text-decoration: none;
-    	display: block;
-    	text-align: center;
-	}
-
-	.dropdown-content a:hover {background-color: #f1f1f1}
-
-	.dropdown:hover .dropdown-content {
-    	display: block;
-	} 
-	</style>
 
 	<body>
 		<ul>
-  			<a href="Début du fichier_1"></a>
-			<li><a chref="#home"><a href ="Début du fichier_1.htlm">Accueil</a></a></li>
-  			<li><a href="#news">Qui sommes-nous?</a></li>
-			<li><a href="#about">En résumé</a></li>
-        </ul>
-
-    	<div style="text-align: center">
-		</body>
+  			<li><a class="active" href="#Début du fichier_1.htlm">Accueil</a></li>
+  			<li><a href="#Suite du fichier_2.htlm">Qui sommes-nous?</a></li>
+  			<li><a href="#focus">Focus</a></li>
+  			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</body>
 
 	<body>
- 		<div id="diapo">
-			<img src="," alt="" style="width: 10%"/>
-		</body>
+		<div id="diapo"></div>
+	</body>
 
 	<body>
 		<li style="color: #FFFFFF">
- 			<ul>
- 				<img src="," alt="" style="width: 100%"/>
- 				<a href ="Suite du fichier_2.htlm"><p> Bienvenue sur le site <b>"WebLan"</b> </p></a>
- 				<img src="https://user-images.githubusercontent.com/98971494/154663412-7f6032bb-1488-4f2e-9f75-c94ff7a9a51e.png" alt="Accueil" style="width: 100%"/>
- 				</li>
- 				<img src="," alt="" style="width: 100%"/>
- 				<p> Et bien-sûre, une introduction sur qui sommes-nous. </p>
-
- 				<li>
- 				<img src="https://user-images.githubusercontent.com/98971494/154663555-75377a46-7b5b-4767-9458-c6d024fd21a8.png" alt="Qui sommes-nous" style="width: 100%"/>
- 				<p> Vous pouvez en savoir plus sur les langauges en regardant la 
-        <a target="_blank" href="https://www.youtube.com/watch?v=Mu6bpGEtL6I">"Vidéo"</a>.</p>
- 				</li>
- 				<img src="," alt="" style="width: 10%"/>
-
- 				
- 			</ul>
- 			</li>
-		</body>
+			<ul>
+				<a href ="Suite du fichier_2.htlm"><p> Bienvenue sur le site <b>"WebLan"</b> </p></a>
+				<img src="https://user-images.githubusercontent.com/98971494/154663412-7f6032bb-1488-4f2e-9f75-c94ff7a9a51e.png" alt="Accueil" style="width: 100%"/>
+			</li>
+		
+				<p> Et bien-sûre, une introduction sur qui sommes-nous. </p>
+			<li>
+				<img src="https://user-images.githubusercontent.com/98971494/154663555-75377a46-7b5b-4767-9458-c6d024fd21a8.png" alt="Qui sommes-nous" style="width: 100%"/>
+				<p> Vous pouvez en savoir plus sur les langauges en regardant la 
+				<a target="_blank" href="https://www.youtube.com/watch?v=Mu6bpGEtL6I">"Vidéo"</a>.</p>
+			</li>
+			
+			</ul>
+		</li>
+	</body>
  
 </htlm>
