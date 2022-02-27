@@ -6,8 +6,7 @@
 		<meta charset="utf-8">
 		<title>Weblan, le Journal Informatique</title>
 		<link rel="stylesheet" href="style.css.htlm">	
-	</head>
-
+		</head>
 
 	<head>
 		<style>
@@ -39,9 +38,8 @@
     			background-color: #A69A94;
 			}
 		</style>
-	</head>
-
-
+		</head>
+		
 	<body>
 		<ul>
   			<li><a class="active" href="#Début du fichier_1.htlm">Accueil</a></li>
@@ -49,11 +47,11 @@
   			<li><a href="#focus">Focus</a></li>
   			<li><a href="#contact">Contact</a></li>
 		</ul>
-	</body>
+		</body>
 
 	<body>
 		<div id="diapo"></div>
-	</body>
+		</body>
 
 	<body>
 		<li style="color: #FFFFFF">
@@ -71,6 +69,6 @@
 			
 			</ul>
 		</li>
-	</body>
+		</body>
  
 </htlm>
